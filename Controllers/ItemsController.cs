@@ -18,7 +18,7 @@ namespace HelloApi.Controllers
         [HttpGet]
         public IEnumerable<string> GetItems()
         {
-            Log.Information("Getting all items from collection...");
+            Log.Information("Getting all items from collection....");
             return _itemService.GetItems();
         }
     }
